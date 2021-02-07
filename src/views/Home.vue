@@ -103,6 +103,7 @@ a:hover {
   background: #eeeeee;
   padding: 50px;
 }
+/* Media query started */
 
 @media (min-width: 1400px) {
   .container-fluid {
@@ -119,7 +120,12 @@ a:hover {
     width: 1400px;
   }
 }
-/* Media query started */
+
+@media (min-width: 1900px) {
+  .container-fluid {
+    width: 1800px;
+  }
+}
 @media (min-width: 2200px) {
   #warp {
     position: relative;
@@ -136,7 +142,7 @@ a:hover {
   }
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 768px) {
   .col-xs-4 {
     width: 100%;
   }
@@ -163,6 +169,10 @@ a:hover {
   }
   .responsive-padd-top-80 {
     padding-top: 80px;
+  }
+  .col-4-padd {
+    margin-top: 20px;
+    padding: 0px 80px;
   }
 }
 /* Media query ended */
